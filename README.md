@@ -1,6 +1,6 @@
 # tflint-config
 
-This **internal** repo holds a shared tflint file for terraform. 
+This **internal** repo holds a shared tflint file for terraform workflows. 
 This config can be used by the [tflint github action][tflint_action].
 Check out the [tflint documentation][tflint_rules] for supported rules.
 
