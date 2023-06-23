@@ -49,7 +49,7 @@ rule "terraform_module_pinned_source" {
 
 # Checks that Terraform modules sourced from a registry specify a version.
 rule "terraform_module_version" {
-  enabled
+  enabled = true
 }
 
 # Enforce naming conventions.
