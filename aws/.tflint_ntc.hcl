@@ -57,7 +57,7 @@ rule "terraform_naming_convention" {
   enabled = true
 
   resource {
-    custom = "^ntc_[a-zA-Z]+([_-][a-zA-Z]+)*$"
+    custom = "^ntc_[a-zA-Z]+([_-][a-zA-Z0-9]+)*$"
   }
 }
 
