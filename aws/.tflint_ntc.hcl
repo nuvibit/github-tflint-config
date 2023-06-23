@@ -56,7 +56,9 @@ rule "terraform_module_version" {
 rule "terraform_naming_convention" {
   enabled = true
 
-  custom = "^ntc_[a-zA-Z]+([_-][a-zA-Z]+)*$"
+  resource {
+    custom = "^ntc_[a-zA-Z]+([_-][a-zA-Z]+)*$"
+  }
 }
 
 # Require that all providers have version constraints through required_providers.
